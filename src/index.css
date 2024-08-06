@@ -11,3 +11,89 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.steps {
+  width: 50%;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  padding: 25px 100px;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+}
+
+.steps header{
+  width: 85%;
+  text-align: start;
+}
+
+.tasks{
+  width: 85%;
+}
+
+.tasks .doneOrUndone {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.tasks .doneOrUndone button{
+  border: none;
+  height: 0%;
+  padding: 5px 10px;
+  cursor: pointer;
+  background-color: red;
+  color: #f7f7f7;
+  border-radius: 10%;
+}
+
+.form-submit {
+  width: 85%;
+  display: flex;
+  gap: 10px;
+}
+
+.form-submit div {
+  display: flex;
+  gap: 2px;
+}
+
+.form-submit input {
+  outline: none;
+  padding: 3px 6px;
+  font-size: large;
+}
+
+.form-submit select {
+  outline: none;
+  padding: 2px 4px;
+  
+}
+
+.form-submit button {
+  border: none;
+  background-color: skyblue;
+  color: white;
+}
+
+.task {
+  display: flex;
+  justify-content: space-between;
+}
+
+.task button{
+  border: none;
+  background-color: #f7f7f7;
+
+
+}
+
+.message{
+  display: flex;
+}
+
+.line-through {
+  text-decoration: line-through ;
+}
